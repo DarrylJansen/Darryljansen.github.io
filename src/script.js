@@ -41,7 +41,7 @@ particlesGeometry2.setAttribute('position', new THREE.BufferAttribute(posArray2,
 // Materials
 
 const material = new THREE.MeshStandardMaterial();
-const normalTexture = textureLoader.load('dist/maps/normalmap.jpg')
+const normalTexture = textureLoader.load('maps/normalmap.jpg')
 material.normalMap = normalTexture
 
 material.color = new THREE.Color(0x000000)
