@@ -21,7 +21,7 @@ scene.fog = new THREE.FogExp2(0xFFFFFF, 0.15)
 
 
 // Objects
-const geometry = new THREE.SphereBufferGeometry(.5, 64, 64);
+const geometry = new THREE.SphereBufferGeometry(.8, 64, 64);
 const particlesGeometry = new THREE.BufferGeometry;
 const particlesGeometry2 = new THREE.BufferGeometry;
 const particlesCnt = 2500;
